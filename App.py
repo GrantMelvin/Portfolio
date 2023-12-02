@@ -68,7 +68,7 @@ st.write(
 
 # Skills
 st.write("#")
-st.subheader("Hard Skills")
+st.subheader("Skills")
 st.write(
 """
 - 🧑‍💻 Languages: C++, Python, Java, Javascript
@@ -88,9 +88,45 @@ st.write("🚧", "Lead Research Assistant | East Carolina University - Departmen
 st.write("08/2023 - 12/2023")
 st.write(
 """
-- ➡️
-- ➡️ 
-- ➡️
+- ➡️ Collaborated with a Department of Defense client on an application focused on leveraging bulk data for
+enhanced decision-making capabilities.
+- ➡️ Orchestrated the end-to-end development, integration, and containerization of an application, ensuring accessibility and tailored functionality for the client.
+- ➡️ Coordinated regular meetings with colleagues to discuss project objectives, milestones, and challenges,
+fostering a collaborative environment that encouraged open communication and shared insights.
+- ➡️ Conducted and led presentations to stakeholders, effectively communicating project progress, key
+achievements, and addressing any concerns or questions.
+
 """
 )
 
+# Job 2
+st.write("#")
+st.write("🚧", "Teaching Assistant | East Carolina University")
+st.write("03/2022 - Present")
+st.write(
+"""
+- ➡️ Solely responsible for instructing and mentoring 20-40 beginner computer science students, providing comprehensive lessons on fundamental concepts in C/C++ programming languages.
+- ➡️ Conducted regular assessments, graded assignments, and provided constructive feedback to support student learning and development.
+- ➡️ Attended and actively contributed to professional development meetings, collaborating with colleagues to
+discuss student progress, share best practices, and refine instructional strategies.
+"""
+)
+
+# Job 3
+st.write("#")
+st.write("🚧", "IT Service Desk Specialist | East Carolina University")
+st.write("10/2022 - 08/2023")
+st.write(
+"""
+- ➡️ Conducted troubleshooting to resolve hardware and software issues for ECU students, faculty, and staff
+- ➡️ Acted as a single point of contact for managing telecommunications, networking, and other services from
+installation to maintenance.
+"""
+)
+
+# Projects
+st.write("#")
+st.subheader("Projects")
+st.write("---")
+for(project, link) in PROJECTS.items():
+    st.write(f"[{project}]({link})")
