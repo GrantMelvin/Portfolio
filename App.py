@@ -19,7 +19,7 @@ Web-developer, data-engineer, and software developer
 EMAIL = "Grantmelvin4@gmail.com"
 SOCIAL_MEDIA = {
     "Github": "https://github.com/GrantMelvin",
-    "LinkedIn": "https://www.linkedin.com/in/grant-melvin-905783229/"
+    "LinkedIn": "https://www.linkedin.com/in/grant-melvin-905783229/" 
 }
 PROJECTS = {
     "📊 ECUQuestCS - A study tool for CS": "https://github.com/GrantMelvin/ECUQuestCS",
