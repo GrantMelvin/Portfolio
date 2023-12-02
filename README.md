@@ -1,4 +1,4 @@
-# Resume 
+# Portfolio Website 
 This website is located at: www.grant-melvin.xyz
 
 This project is used to display my resume publicly and demonstrate basic knowledge of the following technologies:
