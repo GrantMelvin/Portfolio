@@ -14,7 +14,7 @@ PAGE_TITLE = "Digital Resume | Grant Melvin"
 PAGE_ICON = ":computer:"
 NAME = "Grant Melvin"
 DESCRIPTION = """
-Web-developer, data-engineer, and software developer
+Aspiring web-developer, data analyst, and software engineer
 """
 EMAIL = "Grantmelvin4@gmail.com"
 SOCIAL_MEDIA = {
@@ -23,9 +23,9 @@ SOCIAL_MEDIA = {
 }
 PROJECTS = {
     "📊 ECUQuestCS - A study tool for CS": "https://github.com/GrantMelvin/ECUQuestCS",
-    "📂 Student Management System - An organizational tool for teachers": "https://github.com/GrantMelvin/StudentManagementSystem.io"
+    "📂 Student Management System - An organizational tool for teachers": "https://github.com/GrantMelvin/StudentManagementSystem.io",
+    "💼 Portfolio Website - A showcase of my abilities": "https://github.com/GrantMelvin/Portfolio"
 }
-
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
 # Loading CSS
@@ -43,7 +43,7 @@ with col2:
     st.title(NAME)
     st.write(DESCRIPTION)
     st.download_button(
-        label="📄Download Resume",
+        label="📝Download Resume",
         data=PDFbyte,
         file_name=resume_file.name,
         mime="application.octet-stream",
@@ -61,9 +61,9 @@ st.write("#")
 st.subheader("Experience & Qualifications")
 st.write(
 """
-- ✅ 4 Years of software development experience through coursework and professional experiences
-- ✅ Accustomed to being a team leader by managing goals, workflows, and development roadblocks
-- ✅ Adaptive to needs of the position by learning new technologies and seeking out ways to improve
+- ✅ 4 Years of software development experience through coursework and jobs
+- ✅ Skilled in team leading by managing goals, workflows, and development hurdles
+- ✅ Adaptable to role needs through continuous learning and pursuit of improvement
 """)
 
 # Skills
@@ -118,7 +118,7 @@ st.write("🚧", "IT Service Desk Specialist | East Carolina University")
 st.write("10/2022 - 08/2023")
 st.write(
 """
-- ➡️ Conducted troubleshooting to resolve hardware and software issues for ECU students, faculty, and staff
+- ➡️ Conducted troubleshooting to resolve hardware and software issues for ECU students, faculty, and staff.
 - ➡️ Acted as a single point of contact for managing telecommunications, networking, and other services from
 installation to maintenance.
 """

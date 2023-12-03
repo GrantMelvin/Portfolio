@@ -3,7 +3,6 @@
 
 * {font-family: 'Readex Pro';}
 
-
 a {
     text-decoration: none;
     color: white !important;
@@ -15,7 +14,9 @@ a:hover {
     text-decoration: none;
 }
 
-ul {list-style-type: none;}
+ul {
+    list-style-type: none;
+}
 
 hr {
     margin-top: 0px;
