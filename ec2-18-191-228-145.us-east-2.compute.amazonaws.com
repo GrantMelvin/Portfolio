@@ -22,7 +22,7 @@ SOCIAL_MEDIA = {
     "LinkedIn": "https://www.linkedin.com/in/grant-melvin-905783229/" 
 }
 PROJECTS = {
-    "📊 ECUQuestCS - A study tool for Computer Science": "https://github.com/GrantMelvin/ECUQuestCS",
+    "📊 ECUQuestCS - A study tool for CS": "https://github.com/GrantMelvin/ECUQuestCS",
     "📂 Student Management System - An organizational tool for teachers": "https://github.com/GrantMelvin/StudentManagementSystem.io",
     "💼 Portfolio Website - A showcase of my abilities": "https://github.com/GrantMelvin/Portfolio"
 }
