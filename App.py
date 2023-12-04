@@ -38,7 +38,7 @@ profile_pic = Image.open(profile_pic)
 # Hero Section
 col1, col2 = st.columns(2, gap='small')
 with col1:
-    st.image(profile_pic, width=230)
+    st.image(profile_pic, width=300)
 with col2:
     st.title(NAME)
     st.write(DESCRIPTION)
@@ -56,12 +56,24 @@ cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
     cols[index].write(f"[{platform}]({link})")
 
+# Statement of Purpose
+st.write("#")
+st.subheader("Personal Statement")
+st.write(
+"""
+Hey! I'm Grant, and I sincerely appreciate your visit to my portfolio website. 
+Crafted with the intention of transforming my resume into a dynamic showcase, this platform delves into my professional journey, highlighting key work experiences and projects. It's not just a presentation; it's a journey of learning and growth as I explore new technologies. 
+Powered by the Python library Streamlit, this site is hosted on an AWS EC2 instance. 
+Welcome to the intersection of my creativity and professional experiences!
+""")
+
+
 # Experience
 st.write("#")
 st.subheader("Experience & Qualifications")
 st.write(
 """
-- ✅ 4 Years of software development experience through coursework and jobs
+- ✅ 3 Years of software development experience through coursework and jobs
 - ✅ Skilled in team leading by managing goals, workflows, and development hurdles
 - ✅ Adaptable to role needs through continuous learning and pursuit of improvement
 """)
@@ -80,20 +92,18 @@ st.write(
 # Work History
 st.write("#")
 st.subheader("Work History")
-st.write("---")
 
 # Job 1
-st.write("#")
 st.write("🚧", "Lead Research Assistant | East Carolina University - Department of Defense")
 st.write("08/2023 - 12/2023")
 st.write(
 """
-- ➡️ Collaborated with a Department of Defense client on an application focused on leveraging bulk data for
+- ❌ Collaborated with a Department of Defense client on an application focused on leveraging bulk data for
 enhanced decision-making capabilities.
-- ➡️ Orchestrated the end-to-end development, integration, and containerization of an application, ensuring accessibility and tailored functionality for the client.
-- ➡️ Coordinated regular meetings with colleagues to discuss project objectives, milestones, and challenges,
+- ❌ Orchestrated the end-to-end development, integration, and containerization of an application, ensuring accessibility and tailored functionality for the client.
+- ❌ Coordinated regular meetings with colleagues to discuss project objectives, milestones, and challenges,
 fostering a collaborative environment that encouraged open communication and shared insights.
-- ➡️ Conducted and led presentations to stakeholders, effectively communicating project progress, key
+- ❌ Conducted and led presentations to stakeholders, effectively communicating project progress, key
 achievements, and addressing any concerns or questions.
 
 """
@@ -105,9 +115,9 @@ st.write("🚧", "Teaching Assistant | East Carolina University")
 st.write("03/2022 - Present")
 st.write(
 """
-- ➡️ Solely responsible for instructing and mentoring 20-40 beginner computer science students, providing comprehensive lessons on fundamental concepts in C/C++ programming languages.
-- ➡️ Conducted regular assessments, graded assignments, and provided constructive feedback to support student learning and development.
-- ➡️ Attended and actively contributed to professional development meetings, collaborating with colleagues to
+- ❌ Solely responsible for instructing and mentoring 20-40 beginner computer science students, providing comprehensive lessons on fundamental concepts in C/C++ programming languages.
+- ❌ Conducted regular assessments, graded assignments, and provided constructive feedback to support student learning and development.
+- ❌ Attended and actively contributed to professional development meetings, collaborating with colleagues to
 discuss student progress, share best practices, and refine instructional strategies.
 """
 )
@@ -118,8 +128,8 @@ st.write("🚧", "IT Service Desk Specialist | East Carolina University")
 st.write("10/2022 - 08/2023")
 st.write(
 """
-- ➡️ Conducted troubleshooting to resolve hardware and software issues for ECU students, faculty, and staff.
-- ➡️ Acted as a single point of contact for managing telecommunications, networking, and other services from
+- ❌ Conducted troubleshooting to resolve hardware and software issues for ECU students, faculty, and staff.
+- ❌ Acted as a single point of contact for managing telecommunications, networking, and other services from
 installation to maintenance.
 """
 )
@@ -127,6 +137,5 @@ installation to maintenance.
 # Projects
 st.write("#")
 st.subheader("Projects")
-st.write("---")
 for(project, link) in PROJECTS.items():
     st.write(f"[{project}]({link})")

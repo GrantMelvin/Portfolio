@@ -1,12 +1,12 @@
 [theme]
 # Primary
-primaryColor = "#d33682"
+primaryColor = "#D33682"
 
 # Background
-backgroundColor = "#002b36"
+backgroundColor = "#0A192F"
 
 # Secondary Background
-secondaryBackgroundColor = "#586e75"
+secondaryBackgroundColor = "#FF2058"
 
 # Text Color
 textColor = "#fff"
