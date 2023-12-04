@@ -67,7 +67,6 @@ Powered by the Python library Streamlit, this site is hosted on an AWS EC2 insta
 Welcome to the intersection of my creativity and professional experiences!
 """)
 
-
 # Experience
 st.write("#")
 st.subheader("Experience & Qualifications")
