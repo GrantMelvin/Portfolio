@@ -83,7 +83,7 @@ st.subheader("Skills")
 st.write(
 """
 - 🧑‍💻 Languages: C++, Python, Java, Javascript
-- 🪟 Frameworks: React, Node
+- 🪟 Frameworks: React, Node, Express
 - 📦 Databases: PostgreSQL, SQL
 - 📊 Technologies: Github, Docker, Solr        
 """)
