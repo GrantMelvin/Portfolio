@@ -3,7 +3,7 @@ from pathlib import Path
 import streamlit as st
 from PIL import Image
 
-# Dummy Commit 2
+# Dummy Commit 3
 # Path Settings
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "Styles" / "main.css"
