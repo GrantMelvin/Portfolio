@@ -21,4 +21,4 @@ jobs:
     - name: Build the Docker image
       run: docker build -t portfolio .
     - name: Push to Dockerhub
-      run: docker push grantmelvin4/portfolio:latest
+      run: docker push grantmelvin/portfolio:latest
