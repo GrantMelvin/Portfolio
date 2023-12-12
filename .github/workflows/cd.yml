@@ -10,12 +10,12 @@ jobs:
 
   build:
 
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
 
     steps:
     - name: Pull Docker image
       run: sudo docker pull grantmelvin/portfolio:latest
     - name: Delete Old docker container
-      run: sudo docker rm -f portfolio || true
+      run: sudo docker rm -f portfolio-container || true
     - name: Run Docker Container
-      run: sudo docker run -d -p 8501:8501 --name portfolio grantmelvin/portfolio
+      run: sudo docker run -d -p 8501:8501 --name portfolio-container grantmelvin/portfolio
