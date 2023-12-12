@@ -7,15 +7,16 @@ on:
       - completed
 
 jobs:
-
-  build:
-
+  deploy:
     runs-on: self-hosted
-
     steps:
     - name: Pull Docker image
-      run: sudo docker pull grantmelvin/portfolio:latest
-    - name: Delete Old docker container
-      run: sudo docker rm -f portfolio-container || true
+      run: docker pull grantmelvin/portfolio:latest
+    - name: Stop and remove old Docker container
+      run: |
+        docker stop portfolio-container || true
+        docker rm portfolio-container || true
     - name: Run Docker Container
-      run: sudo docker run -d -p 8501:8501 --name portfolio-container grantmelvin/portfolio
+      run: docker run -d -p 8501:8501 --name portfolio-container grantmelvin/portfolio
+    - name: Display Docker container logs
+      run: docker logs portfolio-container
