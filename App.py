@@ -62,7 +62,6 @@ st.write("#")
 st.subheader("Personal Statement")
 st.write(
 """
-TEST FOR SAS!
 Hey! I'm Grant, and I sincerely appreciate your visit to my portfolio website. 
 Crafted with the intention of transforming my resume into a dynamic showcase, this platform delves into my professional journey, highlighting key work experiences and projects. It's not just a presentation; it's a journey of learning and growth as I explore new technologies. 
 Powered by the Python library Streamlit, this site is hosted on an AWS EC2 instance. 
