@@ -95,7 +95,7 @@ st.subheader("Work History")
 
 # Job 1
 st.write("🚧", "Lead Research Assistant | East Carolina University - Department of Defense")
-st.write("08/2023 - 12/2023")
+st.write("08/2023 - Present")
 st.write(
 """
 - ➡️ Collaborated with a Department of Defense client on an application focused on leveraging bulk data for
