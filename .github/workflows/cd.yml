@@ -14,8 +14,6 @@ jobs:
       run: |
         sudo docker stop portfolio-container || true
         sudo docker rm portfolio-container || true
-        sudo docker system prune || true
-        y || true
     - name: Pull Docker image
       run: sudo docker pull grantmelvin/portfolio:latest
     - name: Run Docker Container
