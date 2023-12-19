@@ -86,7 +86,8 @@ st.write(
 - 🧑‍💻 Languages: C++, Python, Java, Javascript
 - 🪟 Frameworks: React, Node, Express
 - 📦 Databases: PostgreSQL, SQL
-- 📊 Technologies: Github, Docker, Solr        
+- 📊 Technologies: Github Version Control, Solr, AWS (EC2 & RDS)        
+- 🚀 DevOps: Docker, Github Workflows
 """)
 
 # Work History
