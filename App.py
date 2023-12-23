@@ -92,7 +92,33 @@ st.write(
 
 # Work History
 st.write("#")
-st.subheader("Work History")
+st.subheader("Volunteer History")
+
+st.write("🤝", "Peer Mentor | East Carolina University")
+st.write("08/2023 - Present")
+st.write(
+"""
+- ➡️ Advised freshman computer science students on course selection, aligning academic choices with their career objectives.
+- ➡️ Conducted workshops and one-on-one sessions to assist students in setting strategic goals, 
+     crafting effective resumes, and developing networking skills for success in the computer science industry.
+"""
+)
+
+st.write("🤝", "Student Conduct Board Member | East Carolina University")
+st.write("05/2022 - 01/2023")
+st.write(
+"""
+- ➡️ Regularly attended training sessions to enhance awareness and understanding of diverse perspectives, contributing to a more inclusive decision-making 
+    process within the Student Conduct Board.
+- ➡️ Engaged in board meetings to collaboratively assess student conduct cases, ensuring a thorough examination of evidence and adherence to established policies and procedures.
+- ➡️ Maintained a personal commitment to exemplary conduct, demonstrating a high standard of ethical behavior and professionalism. 
+    This commitment was essential to remaining eligible for the position and contributing to the integrity of the Student Conduct Board.
+"""
+)
+
+# Work History
+st.write("#")
+st.subheader("Professional Work Experience")
 
 # Job 1
 st.write("🚧", "Lead Research Assistant | East Carolina University - Department of Defense")
@@ -106,7 +132,6 @@ enhanced decision-making capabilities.
 fostering a collaborative environment that encouraged open communication and shared insights.
 - ➡️ Conducted and led presentations to stakeholders, effectively communicating project progress, key
 achievements, and addressing any concerns or questions.
-
 """
 )
 
